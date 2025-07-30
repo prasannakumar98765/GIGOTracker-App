@@ -1,0 +1,46 @@
+# Ignore dependencies (EAS will run npm/yarn install on server)
+node_modules/
+
+# Ignore local build output
+android/.gradle/
+android/.cxx/
+android/build/
+ios/build/
+ios/Pods/
+
+# Expo and Metro cache
+.expo/
+.expo-shared/
+dist/
+web-build/
+.metero-health-check*
+
+# macOS system files
+.DS_Store
+
+# Logs and debugging
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# Environment & security-sensitive files
+.env
+.env.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# TypeScript cache
+*.tsbuildinfo
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Other personal files
+*.iml
+*.orig.*
+*.pem
