@@ -1,31 +1,31 @@
-# Dependency cache (server will install fresh)
+# Dependencies
 node_modules/
 
-# Native build output (OK to exclude)
+# Native build artifacts
 android/.gradle/
 android/.cxx/
+android/app/.cxx/
+android/app/build/
 android/build/
 ios/build/
 ios/Pods/
 
-# Expo and Metro cache
+# Metro & Expo
 .expo/
 .expo-shared/
 dist/
 web-build/
 .metro-health-check*
 
-# System & IDE junk
-.DS_Store
+# IDE/System/Cache
 .vscode/
 .idea/
-*.iml
-
-# Logs
-npm-debug.*
-yarn-debug.*
-yarn-error.*
+.DS_Store
 *.log
+*.tsbuildinfo
+*.iml
+*.orig.*
+*.pem
 
 # Env & secrets
 .env
@@ -35,10 +35,3 @@ yarn-error.*
 *.p12
 *.key
 *.mobileprovision
-
-# TypeScript cache
-*.tsbuildinfo
-
-# Git merge junk
-*.orig.*
-*.pem
