@@ -1,7 +1,7 @@
-# Ignore dependencies (EAS will run npm/yarn install on server)
+# Dependency cache (server will install fresh)
 node_modules/
 
-# Ignore local build output
+# Native build output (OK to exclude)
 android/.gradle/
 android/.cxx/
 android/build/
@@ -13,18 +13,21 @@ ios/Pods/
 .expo-shared/
 dist/
 web-build/
-.metero-health-check*
+.metro-health-check*
 
-# macOS system files
+# System & IDE junk
 .DS_Store
+.vscode/
+.idea/
+*.iml
 
-# Logs and debugging
+# Logs
 npm-debug.*
 yarn-debug.*
 yarn-error.*
 *.log
 
-# Environment & security-sensitive files
+# Env & secrets
 .env
 .env.*
 *.jks
@@ -36,11 +39,6 @@ yarn-error.*
 # TypeScript cache
 *.tsbuildinfo
 
-# IDE/editor settings
-.vscode/
-.idea/
-
-# Other personal files
-*.iml
+# Git merge junk
 *.orig.*
 *.pem
