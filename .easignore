@@ -13,9 +13,9 @@ ios/Pods/
 # Metro & Expo
 .expo/
 .expo-shared/
+.metro/
 dist/
 web-build/
-.metro-health-check*
 
 # IDE/System/Cache
 .vscode/
