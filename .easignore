@@ -1,7 +1,4 @@
-# Dependencies
 node_modules/
-
-# Native build artifacts
 android/.gradle/
 android/.cxx/
 android/app/.cxx/
@@ -9,25 +6,19 @@ android/app/build/
 android/build/
 ios/build/
 ios/Pods/
-
-# Metro & Expo
 .expo/
 .expo-shared/
-.metro/
 dist/
 web-build/
-
-# IDE/System/Cache
-.vscode/
-.idea/
-.DS_Store
+.metro-cache/
 *.log
 *.tsbuildinfo
 *.iml
 *.orig.*
 *.pem
-
-# Env & secrets
+.DS_Store
+.vscode/
+.idea/
 .env
 .env.*
 *.jks

@@ -22,13 +22,13 @@
       },
       "edgeToEdgeEnabled": true,
       "package": "com.anonymous.locationtrackerapp",
-        "permissions": [
-    "ACCESS_FINE_LOCATION",
-    "ACCESS_COARSE_LOCATION",
-    "ACCESS_BACKGROUND_LOCATION",
-    "FOREGROUND_SERVICE",
-    "WAKE_LOCK"
-        ]
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "FOREGROUND_SERVICE",
+        "WAKE_LOCK"
+      ]
     },
     "web": {
       "bundler": "metro",
@@ -55,6 +55,7 @@
       "eas": {
         "projectId": "1941ff3d-7a33-476e-9396-4d6bbf3199d7"
       }
-    }
+    },
+    "owner": "gigodeliveryservices"
   }
 }
