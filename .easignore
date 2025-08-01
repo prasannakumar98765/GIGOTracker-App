@@ -1,4 +1,6 @@
 node_modules/
+android/
+ios/
 android/.gradle/
 android/.cxx/
 android/app/.cxx/
